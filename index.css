@@ -1,0 +1,90 @@
+body {
+background-color: #4e4e4e;
+}
+#leftdownbox {
+float: left;
+width: 850px;
+border: solid #a1a1a1 10px;
+}
+.pinkbar {
+background: linear-gradient(#f0667a, #fe7689);
+padding: 10px;
+font-size: 70px;
+display: flex;
+color: #4e4e4e;
+}
+.logo {
+ width: 100px; height: 100px;
+}
+.steak {
+ width: 550px; height: 550px;
+padding: 50px 175px;
+}
+.pizza {
+ width: 560px; height: 360px;
+padding: 50px 175px;
+}
+.sand {
+ width: 360px; height: 260px;
+margin-left: 100px;
+}
+.pp {
+ width: 260px; height: 300px;
+margin-left: 50px;
+}
+.listone {
+ background: #6c6c6c;
+color: #4e4e4e;
+font-size: 50px;
+}
+.listtwo {
+ background: #6c6c6c;
+color: #4e4e4e;
+font-size: 50px;
+}
+#rightdownbox {
+float: right;
+color: white;
+display: grid;
+grid-template-cloumns: 1fr 1fr;
+grid-template-rows: 100px 100px 100px 100px;
+grid-gap: 20px;
+}
+.food1 {
+border: solid #a1a1a1 10px;;
+font-size: 35px;
+}
+.food2 {
+border: solid #a1a1a1 10px;;
+font-size: 35px;
+}
+.food3 {
+border: solid #a1a1a1 10px;;
+font-size: 35px;
+}
+.food4 {
+border: solid #a1a1a1 10px;;
+font-size: 35px;
+}
+#calendar {
+}
+.month {
+ font-size: 28px;
+ margin-right: 100px;
+}
+.week {
+ border: solid #a1a1a1 6px;
+font-size: 20px;
+ margin-right: 100px;
+display: flex;
+margin: 30px;
+margin-right: 100px;
+letter spacing: 10px;
+}
+.days {
+ border: solid #a1a1a1 5px;
+font-size: 15px;
+ display: flex;
+margin: 30px;
+ flex-wrap: wrap;
+}
